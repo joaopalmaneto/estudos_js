@@ -1,7 +1,13 @@
+// definindo variáveis e constantes
+
 let welcomeMsg = "aouuuuu boiada",
-    preco = 4.99,
+    preco = 1,
     produto = "Esquís";
 
 const nome = "Carved Rock Fitness";
+
+
+
+
 
 showMessage(welcomeMsg)
