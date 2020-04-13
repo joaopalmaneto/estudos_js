@@ -8,6 +8,11 @@ produto = "Esquís";
  */
 console.log(preco += 4, preco %= 2, ++preco, preco--, typeof preco);
 
+/* note que valores float podem causar erros em cálculos e comparações
+por não possuírem numero fixo de casas decimais */
+console.log(1.1 + 1.3 === 2.4, +(1.1 + 1.3).toFixed(2) === 2.4)
+
+
 //escapando caracteres
 
 console.log(" \"Escapar\" ");
@@ -22,3 +27,13 @@ console.log(produto.toLowerCase(),
             produto.substring(1,4) ) ;
 
 console.log(produto.length);
+
+//definindo objetos 
+
+let pessoa = {
+    nome: "João",
+    idade: 38, 
+    casado: false
+};
+
+console.log(pessoa);
