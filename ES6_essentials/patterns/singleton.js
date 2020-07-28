@@ -11,3 +11,4 @@ console.log(Aguia);
 
 const Burro = Bicho.call({grupo: 3, numeros: [31,32,33,34]});
 console.log(Burro);
+
